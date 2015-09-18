@@ -1,0 +1,33 @@
+//WebFont
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
+
+//Mixin
+@mixin background-size($bg-size) {
+	-webkit-background-size: $bg-size; /* For WebKit*/
+    -moz-background-size: $bg-size;    /* Mozilla*/
+    -o-background-size: $bg-size;      /* Opera*/
+    background-size: $bg-size;         /* Generic*/
+    }
+
+// Text Vars
+
+$font-stack: 'Open Sans','Muli', 'lucida grande', 'sans-serif';
+$font-stack-body: 'Open Sans', "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+$font-size: 20px;
+$font-weight: 400;
+$font-color: #aaaaaa;
+
+$bg-color: #f1f1f1;
+
+// Colors 
+
+$blue: #4c88e6;
+$gold: #c5a553;
+$orange: #ff7226;
+$brown: #402d22;
+$white: #f1f1f1;
+
+// Link Vars
+
+$link-color: #aaaaaa;
+$link-color-hover: #000000;
