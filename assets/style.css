@@ -9,12 +9,14 @@ body {
   font-weight: 400;
   font-size: 20px;
   -webkit-font-smoothing: antialiased; }
+  
+.top {padding-top: 25px; }
 
 p {
   color: #aaaaaa;
   font-size: 15px;
   line-height: 24px;
-  padding-bottom: 18px; }
+  padding-bottom: 1px; }
   p img {
     float: left;
     margin-right: 2rem;
@@ -41,6 +43,7 @@ a {
     text-decoration: none; }
   a:hover {
     text-decoration: none;
+    color: #aaaaaa;
     background-color: rgba(255, 255, 255, 0.72); }
 
 ul {
@@ -68,11 +71,9 @@ div.content {
 @media (max-width: 480px) {
   div.content {
     margin: auto 2%; }
-  p, ul {
-    font-size: 20px;
-    line-height: 28px; }
+  p, ul {}
   a:link {
     text-decoration: underline; }
   li {
-    font-size: 26px;
+    font-size: 15px;
     padding-left: 2%; } }
