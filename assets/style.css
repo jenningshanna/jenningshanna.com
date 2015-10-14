@@ -12,6 +12,8 @@ body {
   
 .top {padding-top: 25px; }
 
+.container {max-width: 800px;}
+
 p {
   color: #aaaaaa;
   font-size: 15px;
