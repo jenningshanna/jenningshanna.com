@@ -24,11 +24,15 @@ p {
     margin-right: 2rem;
     border-radius: 50%;
     -webkit-shape-outside: circle();
-    shape-outside: circle(); }
+    shape-outside: circle(); 
+    border: 3px solid #fafafa;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
   p span.name {
     font-weight: 600;
     background-color: #FFF;
-    padding: 2px 3px; }
+    padding: 2px 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 
 h1 {
   text-align: center;
@@ -40,7 +44,7 @@ h1 {
 a {
   font-style: italic;
   text-decoration: none;
-  color: #aaaaaa; }
+  color: #aaaaaa;}
   a:active, a:visited, a:link {
     text-decoration: none; }
   a:hover {
@@ -78,4 +82,26 @@ div.content {
     text-decoration: underline; }
   li {
     font-size: 15px;
-    padding-left: 2%; } }
+    padding-left: 2%; } 
+  }
+  
+div.switcher {width: 100px; position: relative; top: 0; left: 85%; background-color: black; height: 0px; color: white; z-index: 9999;}
+
+div.switcher a:hover {color: white; background-color: transparent}
+
+div.box-container {height: 150px; border: 3px solid #fafafa; padding: 5px; margin: 6% 0px;border-radius: 2px;
+	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+}
+
+.box-container:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.cfa {background: url("images/cfa-abq-portfolio.png") no-repeat 49% -2%}
+.spiral {background: url("images/spiral-portfolio.jpg") no-repeat 72% 19%}
+.cornell {background: url("images/cornell-portfolio.png") no-repeat 140% -75%}
+.super-bowl {background: url("images/super-bowl-portfolio.png") no-repeat 132% -35%}
+.deja {background: url("images/Deja-vu-portfolio.png") no-repeat 151% -36%}
+.thesis {background: url("images/thesis-portfolio.png") no-repeat 130% -28%}
