@@ -1,0 +1,11 @@
+# Site settings
+title: Jennings Hanna, Designer
+email: jenningshanna@gmail.com
+description: Jennings portfolio site. Built by hand with HTML, CSS, and Javascript. Hosted on Nearly Free Speach by way of GitHub with a little help from Jekyll.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.jenningshanna.com" # the base hostname & protocol for your site
+twitter_username: jenningshanna
+github_username:  jenningshanna
+
+# Build settings
+markdown: kramdown
