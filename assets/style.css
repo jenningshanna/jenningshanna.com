@@ -46,7 +46,8 @@ a {
   text-decoration: none;
   color: #aaaaaa;}
   a:active, a:visited, a:link {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #aaaaaa; }
   a:hover {
     text-decoration: none;
     color: #aaaaaa;
@@ -59,10 +60,7 @@ ul {
   font-size: 15px;
   line-height: 24px; }
 
-li {
-  padding-left: 5%;
-  padding-right: 5%;
-  text-indent: -7px; }
+li {text-indent: -7px; }
 
 li:before {
   content: "... ";
@@ -97,7 +95,6 @@ div.box-container {height: 150px; border: 3px solid #fafafa; padding: 5px; margi
 .box-container:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
 
 .cfa {background: url("images/cfa-abq-portfolio.png") no-repeat 49% -2%}
 .spiral {background: url("images/spiral-portfolio.jpg") no-repeat 72% 19%}
