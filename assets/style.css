@@ -83,7 +83,7 @@ div.content {
     padding-left: 2%; } 
   }
   
-div.switcher {width: 100px; position: relative; top: 0; left: 85%; background-color: black; height: 0px; color: white; z-index: 9999;}
+div.switcher {position: absolute; top: 0; left: 86.9%; background-color: black; height: 0px; color: white; z-index: 9999;}
 
 div.switcher a:hover {color: white; background-color: transparent}
 
