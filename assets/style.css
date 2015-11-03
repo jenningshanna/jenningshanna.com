@@ -14,6 +14,10 @@ body {
 
 .container {max-width: 800px;}
 
+img {max-width: 100%; 
+display:block; 
+height: auto;}
+
 p {
   color: #aaaaaa;
   font-size: 15px;
@@ -81,24 +85,27 @@ div.content {
   li {
     font-size: 15px;
     padding-left: 2%; } 
+  div.super-bowl, div.cornell, div.deja {background-position: 79% 19%}
   }
   
 div.switcher {position: absolute; top: 0; left: 86.9%; background-color: black; height: 0px; color: white; z-index: 9999;}
 
 div.switcher a:hover {color: white; background-color: transparent}
 
-div.box-container {height: 150px; border: 3px solid #fafafa; padding: 5px; margin: 6% 0px;border-radius: 2px;
+div.portfolio-cards a {background-color: #fafafa;}
+
+div.card {height: 150px; border: 3px solid #fafafa; padding: 5px; margin: 6% 0px;border-radius: 2px;
 	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.2s ease-in-out;
 }
 
-.box-container:hover {
+.card:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .cfa {background: url("images/cfa-abq-portfolio.png") no-repeat 49% -2%}
 .spiral {background: url("images/spiral-portfolio.jpg") no-repeat 72% 19%}
-.cornell {background: url("images/cornell-portfolio.png") no-repeat 140% -75%}
-.super-bowl {background: url("images/super-bowl-portfolio.png") no-repeat 132% -35%}
-.deja {background: url("images/Deja-vu-portfolio.png") no-repeat 151% -36%}
+.cornell {background: url("images/cornell-portfolio.png") no-repeat}
+.super-bowl {background: url("images/super-bowl-portfolio.png") no-repeat}
+.deja {background: url("images/Deja-vu-portfolio.png") no-repeat}
 .thesis {background: url("images/thesis-portfolio.png") no-repeat 130% -28%}
