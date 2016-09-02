@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="485px" height="21px" viewBox="0 0 485 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="92.729491%" cy="50%" fx="92.729491%" fy="50%" r="92.3316498%" id="radialGradient-1">
+            <stop stop-color="#B28247" offset="0%"></stop>
+            <stop stop-color="#7A4B22" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Letter" transform="translate(-61.000000, -158.000000)">
+            <g id="Group-6" transform="translate(61.000000, 158.000000)">
+                <polygon id="Triangle-1" fill="url(#radialGradient-1)" points="454 20 454 0 484 10"></polygon>
+                <polygon id="Path-2" fill="#000000" points="466 5 464 8.33691406 465.808273 10.9545898 465.021594 13.2358398 467.240258 14.4892578 466 16.2324219 484.438965 10.152832"></polygon>
+                <rect id="Rectangle-2" fill="#D0D0D0" style="mix-blend-mode: darken;" x="0" y="0" width="22" height="20" rx="8"></rect>
+                <rect id="Rectangle-2" fill="#DCDCDC" x="0" y="0" width="22" height="10" rx="5"></rect>
+                <rect id="Rectangle-1" fill="#5C5B5A" x="17" y="0" width="434.141602" height="20"></rect>
+                <polygon id="Rectangle-1" fill="#3A3938" points="17 1 451.141602 1 451.141602 11.4375 17 11.4375"></polygon>
+                <rect id="Rectangle-3" fill="#A9A5A5" x="17" y="0" width="19" height="20"></rect>
+                <rect id="Rectangle-3" fill="#B3B1B1" x="17" y="10" width="19" height="10"></rect>
+                <path d="M40,0 L40.0761719,19.8378906" id="Path-3" stroke="#49D743"></path>
+                <path d="M53.0761719,19.8378906 L53,0" id="Path-3" stroke="#49D743"></path>
+                <path d="M53,9.38671875 L53,0" id="Path-3" stroke="#42BD3C"></path>
+                <path d="M40,9.38671875 L40,0" id="Path-3" stroke="#42BD3C"></path>
+                <path d="M46,0 L46.0761719,19.8378906" id="Path-3" stroke="#FF7600"></path>
+                <path d="M46,1 L46,10.3877934" id="Path-3" stroke="#D26200"></path>
+                <path d="M21.0394833,19.8378906 L21,0" id="Path-3" stroke="#BAB9B9"></path>
+                <path d="M25.0394833,19.8378906 L25,0" id="Path-3" stroke="#BAB9B9"></path>
+                <path d="M29.0394833,19.8378906 L29,0" id="Path-3" stroke="#BAB9B9"></path>
+                <path d="M21,10.3867188 L21,0" id="Path-3" stroke="#8D8D8D"></path>
+                <path d="M25,10.3867188 L25,0" id="Path-3" stroke="#8D8D8D"></path>
+                <path d="M29,10.2890625 L29,0" id="Path-3" stroke="#8D8D8D"></path>
+                <path d="M445.760476,0 C445.760476,0 438.38008,2.72528035 441.998391,7.22271824 C441.998391,7.22271824 442.29118,10.5748663 445.909491,13.6050264 C445.909491,13.6050264 440.320279,18.0702606 443.558188,19.8595747 L454.479766,20.0527965 L454.479766,0" id="Path-5" fill="#7A4C22"></path>
+            </g>
+        </g>
+    </g>
+</svg>
