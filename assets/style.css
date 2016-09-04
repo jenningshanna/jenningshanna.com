@@ -116,6 +116,10 @@ div.card {height: 150px;
 .cfa {background: url("images/cfa-abq-portfolio.png") no-repeat 80% -45%}
 .thesis {background: url("images/thesis-portfolio.png") no-repeat 80% 0%}
 .etsy {background: url("images/etsy-portfolio.png") no-repeat 80% 0%}
+.flite {background: url("images/flite-portfolio.png") no-repeat}
+.bikelock {background: url("images/bike-lock-portfolio.png") no-repeat}
+.etch {background: url("images/etch-portfolio.png") no-repeat}
+.penmoms {background: url("images/pen-moms-portfolio.png") no-repeat}
 
 #pencil, #pencil2 {padding: 20px 0px 30px 0px;}
 #pencil2 {float: right;}
