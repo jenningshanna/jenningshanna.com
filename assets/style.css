@@ -120,6 +120,7 @@ div.card {height: 150px;
 .bikelock {background: url("images/bike-lock-portfolio.png") no-repeat}
 .etch {background: url("images/etch-portfolio.png") no-repeat}
 .penmoms {background: url("images/pen-moms-portfolio.png") no-repeat}
+.ea {background: url("images/ea-portfolio.png") no-repeat 80% -35%}
 
 #pencil, #pencil2 {padding: 20px 0px 30px 0px;}
 #pencil2 {float: right;}
