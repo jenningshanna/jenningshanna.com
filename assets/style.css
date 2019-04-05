@@ -1,4 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600);
+
+/*
+@font-face {
+font-family: 'Sans Forgetica Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Sans Forgetica Regular'), url('SansForgetica-Regular.woff') format('woff');
+}
+*/
+
 html {
   width: 100%;
   height: 100%; }
@@ -8,7 +18,8 @@ body {
   font: 100% 'Open Sans', 'Muli', 'lucida grande', 'sans-serif';
   font-weight: 400;
   font-size: 20px;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased; 
+  }
   
 .top {padding-top: 25px; }
 
@@ -36,7 +47,10 @@ p {
     font-weight: 600;
     background-color: #FFF;
     padding: 2px 3px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+	/*     Sans Forgetica bwahahhahahahahha      */
+	/* 	font-family:'Sans Forgetica Regular';font-size: 2rem; */
+    }
 
 h1 {
   text-align: center;
@@ -44,6 +58,8 @@ h1 {
   font-weight: 100;
   margin-bottom: 20px;
   color: #c5a553; }
+
+h5 {margin-bottom: 0rem;}
 
 a {
   font-style: italic;
@@ -68,7 +84,7 @@ li {text-indent: -7px; }
 
 li:before {
   content: "... ";
-  color: #aaaaaa; }
+  color: #222; }
 
 small {
   font-size: 10px; }
@@ -143,3 +159,12 @@ div.card {height: 150px;
 }
 
 .coming-soon {background-color: yellow; padding: 2px;}
+
+.resume p { color: #222;}
+
+.resume .subheadline {font-size:1.5rem;}
+.resume .subheadline2 {font-size:1rem;}
+
+.resume-img {padding: 15px 0px 50px 0;}
+
+.resume-edu p {font-size: 2rem; color: #222; margin-bottom: 0;}

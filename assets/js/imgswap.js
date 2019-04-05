@@ -6,6 +6,6 @@
 	//console.log(imgRandom(img));
 	imgSrc = imgRandom(img);
 	
-	$('#pencil2').prepend($('<img>',{src: basePath + imgSrc }))
 	$('#pencil').prepend($('<img>',{src: basePath + imgSrc}))
+	$('#pencil2').prepend($('<img>',{src: basePath + imgSrc }))
 	//prepeneds to div, add's image element, adds src as basepath + radomfunciton on image name
