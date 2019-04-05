@@ -63,15 +63,15 @@ h5 {margin-bottom: 0rem;}
 
 a {
   font-style: italic;
-  text-decoration: none;
+  text-decoration: underline;
   color: #aaaaaa;}
   a:active, a:visited, a:link {
-    text-decoration: none;
+    text-decoration: underline;
     color: #aaaaaa; }
   a:hover {
-    text-decoration: none;
-    color: #aaaaaa;
-    background-color: rgba(255, 255, 255, 0.72); }
+    color: #222222;
+	/*background-color: rgba(255, 255, 255, 0.72);  */
+    }
 
 ul {
   list-style: none;
