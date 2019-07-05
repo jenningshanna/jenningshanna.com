@@ -21,6 +21,29 @@ body {
   -webkit-font-smoothing: antialiased; 
   }
   
+
+nav ul {
+	display: flex;
+	float: right;
+	padding-top: 1rem;
+	
+}
+
+nav ul li {
+	list-style: none;
+	text-indent: 0;
+	padding-left: 2rem;
+}
+
+nav ul li:before {
+  content: ""; 
+  }
+  
+nav ul li  a:hover {
+    color: #222222;
+	background-color: rgba(255, 255, 255, 0.72);
+    }
+  
 .top {padding-top: 25px; }
 
 .container {max-width: 800px;}
@@ -146,7 +169,8 @@ div.card {height: 150px;
 	.ea-madden {background: url("images/ea-madden-playbook.png") no-repeat 80% -35%}
 	.ea-tribute {background: url("images/ea-tribute.png") no-repeat 80% -35%}
 	.ea-apex {background: url("images/ea-apex-logo.png") no-repeat 80% -35%}
-
+	.ea-anthem {background: url("images/ea-anthem.png") no-repeat 80% -35%}
+	.ea-amp {background: url("images/google-amp-logo.png") no-repeat 80% -35%}
 #pencil, #pencil2 {padding: 20px 0px 30px 0px;}
 #pencil2 {float: right;}
 #pencil2 img {
